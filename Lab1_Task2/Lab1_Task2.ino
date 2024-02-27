@@ -25,6 +25,7 @@ void loop() {
 
       // Перевірка, чи число кратне 10
       if (number % 10 == 0) {
+ Serial.println(number);
         // Якщо так, вмикаємо світлодіод
         digitalWrite(ledPin, HIGH);
       } else {
